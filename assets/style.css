@@ -1,0 +1,68 @@
+body{
+    background-color: darkgrey;
+}
+
+h1{
+    text-align: center;
+    background-color: #8585ad;
+    padding: 20px;
+}
+
+
+#main-block{
+    height: 750px;
+    border-radius: 5px;
+}
+
+#input-block{
+ margin: 0 auto;
+ background-color: lightgrey;
+ height: 750px;
+ border-radius: 5px;
+}
+
+#display-block{
+    margin: 0 auto;
+    background-color:#8585ad;
+    height: 750px;
+    border-radius: 5px;
+}
+
+#current-weather{
+    height: 340px;
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 35px;
+    border-radius: 5px;
+}
+
+#future-weather{
+    height: 340px;
+    background-color: lightgrey;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.input-group{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: #0099ff;
+    color: white;
+}
+
+#five-day{
+    height: 70%;
+    background-color: white ;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+    line-height: 3;
+}
