@@ -36,9 +36,10 @@
                     <input type="text" class="form-control" placeholder="Search for a City"
                         aria-label="search for a city" aria-describedby="button-addon2" id="search-input">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                        <button class="btn btn-outline-secondary" type="button" id="searchBtn">Search</button>
                     </div>
                 </div>
+                <ul class="history"></ul>
             </div>
 
 
@@ -46,25 +47,22 @@
             <div class="col-md-9" id="display-block">
 
                 <div class="row" id="current-weather">
-                    <div class="col-md-4">
-                        <h3>Atlanta</h3>
+                    <div class="col-md-12">
+                        <h3 id="title"></h3>
+                        <h3 id="date"></h3>
                         <hr>
                         <ul>
-                            <li class="temp">asasfasdf</li>
-                            <li class="humidity">sfgfgsd</li>
-                            <li class="windSpeed">sdfgsdgf</li>
-                            <li class="uvIndex">sdfgsdgf</li>
+                            <li class="temp"></li>
+                            <li class="humidity"></li>
+                            <li class="windSpeed"></li>
+                            <li class="uvIndex"></li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- five day forcast block -->
                 <div class="row" id="future-weather">
-                    <div class="col-md-2" id="five-day"></div>
-                    <div class="col-md-2" id="five-day"></div>
-                    <div class="col-md-2" id="five-day"></div>
-                    <div class="col-md-2" id="five-day"></div>
-                    <div class="col-md-2" id="five-day"></div>
+              
                 </div>
             </div>
 
