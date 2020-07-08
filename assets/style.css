@@ -18,14 +18,14 @@ h1{
  margin: 0 auto;
  background-color: lightgrey;
  height: 750px;
- border-radius: 5px;
+ border-radius: 5px 0px 0px 5px;
 }
 
 #display-block{
     margin: 0 auto;
     background-color:#8585ad;
     height: 750px;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
 }
 
 #current-weather{
@@ -49,8 +49,8 @@ h1{
 }
 
 .btn{
-    background-color: #0099ff;
-    color: white;
+    background-color: #ffffff;
+    color: grey;
 }
 
 #five-day{
